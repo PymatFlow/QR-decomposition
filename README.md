@@ -50,12 +50,14 @@ y : 1d array
     # MSE,RMSE Calculation
     MSE,RMSE = mdl.model_accuray(Ytarget, Ytest)   
 	
-'''
+```
+
 
 ### Notes
    
 - If you do not have good value for MSE and RMSE, try to add more point to X and y based on your equation or system to help the model for finding a better model.
-Please pay attention that adding irrelevant data will lead to a worse model. 
-    
+
+- Please pay attention that adding irrelevant data will lead to a worse model. 
+
 - This model is a one-dimensional polynomial equation
    
