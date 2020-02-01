@@ -2,17 +2,17 @@
 Gram-Schmidt Method is used for implementation of QR decomposition.
 
 If we consider our formula as :
+
 y = b*X
     
 ### Parameters
-    ----------
 X  : 1d array
         input values
 y : 1d array
         considered output values of the model
 
 
-###Example
+### Example
 
 ```python
     # Training input data
