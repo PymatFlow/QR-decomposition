@@ -2,19 +2,19 @@
 Gram-Schmidt Method is used for implementation of QR decomposition.
 
 If we consider our formula as :
-$$y = b*X$$
+y = b*X
     
 Parameters
     ----------
-$$X$$  : 1d array
+X  : 1d array
         input values
 
- $$y$$ : 1d array
+y : 1d array
         considered output values of the model
 
 
 Example
-    -------        
+'''       
     # Training input data
 	X = np.array([
     [1],
@@ -49,7 +49,7 @@ Example
     # MSE,RMSE Calculation
     MSE,RMSE = mdl.model_accuray(Ytarget, Ytest)   
 	
-
+'''
 
 ### Notes
    
