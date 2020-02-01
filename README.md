@@ -8,6 +8,7 @@ y = b*X
 ### Parameters
 X  : 1d array
         input values
+
 y : 1d array
         considered output values of the model
 
